@@ -1,0 +1,49 @@
+.menu-bg {
+  background-color: #0d0d14;
+  padding: 5px 0;
+}
+
+.menu {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex: wrap;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.menu a {
+  color: #fff;
+}
+
+.menu-logo a {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin: 0 10px;
+  color: #d99494;
+}
+.menu-logo a:hover {
+  transform: scale3d(1.1, 1.1, 1.1);
+  transition: ease-in-out 0.2s;
+  color: #fff;
+}
+
+.menu-nav ul {
+  display: flex;
+  flex: wrap;
+}
+.menu-nav a {
+  font-size: 1.1em;
+  display: block;
+  padding: 10px;
+  margin: 0 10px;
+  transition: ease-in-out 0.3s;
+  text-transform: uppercase;
+}
+.menu-nav a:hover {
+  border-radius: 20px;
+  transition: ease-in-out 0.2s;
+  color: #d99494;
+}

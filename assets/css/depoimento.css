@@ -1,0 +1,114 @@
+.depoimento-container {
+  display: flex;
+  flex-wrap: wrap;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.depoimento-titulo {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.6;
+  font-family: "Dancing Script", cursive;
+  text-transform: capitalize;
+  color: #d99494;
+}
+
+.depoimento-p {
+  font-size: 35px;
+  font-weight: 700;
+  font-family: "poppins", sans-serif;
+  color: #fff;
+  margin-top: 2.5rem;
+  line-height: 27px;
+}
+.depoimento-p::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #d99494;
+  margin-top: 30px;
+}
+
+.feedback-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+.feedback-card {
+  width: 400px;
+  height: 300px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #07070a;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.feedback-card:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+  background-color: #20202e;
+}
+
+.feedback-avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.feedback-avatar img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.feedback-avatar h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  color: #fff;
+
+  margin-top: 20px;
+}
+
+.feedback-comment {
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  margin-top: 30px;
+}
+
+.feedback-rating {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.feedback-stars {
+  font-size: 17px;
+  color: #ffc107;
+}
+
+.feedback-score {
+  font-size: 15px;
+  font-weight: bold;
+  color: #d99494;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .feedback-card {
+    width: calc(50% - 20px);
+  }
+}

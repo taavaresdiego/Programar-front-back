@@ -1,0 +1,68 @@
+.foto-final {
+  background-image: url(../img/backgrounds/rod-long-6SMF42-JTAc-unsplash.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.marys-container {
+  background-color: rgba(34, 34, 34, 0.288);
+  backdrop-filter: blur(2px);
+  padding: 80px;
+  border-radius: 5px;
+  height: 340px;
+}
+.titulo-efeito {
+  font-size: 4em;
+  color: #fff;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  animation: fadeIn 1s ease-in-out;
+}
+
+.marys-card {
+  margin-bottom: 80px;
+}
+
+.marys-titulo {
+  font-size: 1.8em;
+  color: #fff;
+
+  animation: fadeIn 1s ease-in-out;
+  text-align: center;
+  font-family: "poppins", sans-serif;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000000;
+}
+.marys-titulo h1 {
+  border: solid 1px #fff;
+}
+
+.marys-p {
+  font-size: 2.5em;
+  color: #fff;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000000;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.btn-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+.btn-overlay a {
+  text-decoration: none;
+  color: #fff;
+
+  font-family: "poppins", sans-serif;
+}
+
+.btn-overlay:hover {
+  background-color: #0d0d14;
+  color: #d99494;
+}

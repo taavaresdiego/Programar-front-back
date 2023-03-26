@@ -1,0 +1,114 @@
+.pedido {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-image: url(../img/backgrounds/slashio-photography-ZTpUrmxu4Aw-unsplash.jpg);
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20px;
+}
+
+.teste {
+  color: #ccc;
+  box-shadow: #fff 0px 0px 0px 1px;
+}
+.paragrafo {
+  color: #fff;
+}
+
+.imagem-container {
+  width: 50%;
+  height: 50%;
+  text-align: center;
+}
+
+.imagem-container img {
+  width: 899px;
+  height: 646px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20px;
+}
+
+.form-container {
+  width: 50%;
+  margin: 10px;
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #d99494;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+input {
+  color: #fff;
+  width: 50px;
+}
+
+.form-group button:hover {
+  background-color: #9b5858;
+}
+.bg-form {
+  padding: 50px;
+  border-radius: 5px;
+  background-color: rgba(34, 34, 34, 0.288);
+  backdrop-filter: blur(2px);
+}
+
+label {
+  color: #fff;
+}
+h2 {
+  color: #fff;
+  text-align: center;
+}
+
+span {
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+  color: #d99494;
+  margin-right: -10px;
+}
+.efeito {
+  color: #fff;
+  font-size: 65px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
